@@ -1,0 +1,2 @@
+# v1 is stdlib-only (urllib, json, xml, sqlite-free JSONL store).
+# Additions go here as modules graduate.
