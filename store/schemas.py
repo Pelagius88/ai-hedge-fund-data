@@ -181,6 +181,24 @@ class Page:
     provenance: Provenance | None = None
 
 
+# -------------------------------------------------------- archive tombstones ----
+@dataclass
+class ArchiveTombstone:
+    """Marker left in the hot table when a record moves to cold storage.
+
+    Lives in the SAME table as the archived record, appended via supersede()
+    so current() drops the original. The original is never deleted.
+    """
+    archived_record_id: str          # record_id of the record moved to cold
+    table: str                       # hot table it came from
+    cold_path: str                   # relative path under the archive root,
+                                     # e.g. "filings/2024-01.jsonl.gz"
+    archived_at: str = field(default_factory=_now)
+    archived: bool = True            # marker so hot() can filter tombstones
+    record_id: str = field(default_factory=_rid)
+    provenance: Provenance | None = None
+
+
 # Every table the store knows about.
 TABLES = (
     "bars",
