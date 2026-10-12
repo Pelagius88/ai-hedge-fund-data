@@ -1,0 +1,26 @@
+holdings: 9008 lines, 8913 unique filers
+merged -> /home/hatch/workspace/ai-hedge-fund-data/_store/thirteenf/holdings_merged.jsonl
+diff stats: {"filers": 8913, "with_both_quarters": 8775, "missing_q2": 11, "missing_q1": 127, "holdings_rows": 6618342}
+raw moves: 302559
+issuer index: 103883 names from 6656460 holding rows
+cusip_map: 555 tickers, ambiguous: 21
+  AMBIG ARBE: [{"cusip": "M1R95N100", "classes": ["CMN", "COM", "Common / Ordinary Stock", "Common Stock", "FOREIGN", "ORDINARY SHARES"], "issuer": "ARBE ROBOTICS LTD", "count": 114}, {"cusip": "M1R95N118", "classe
+  AMBIG BEN: [{"cusip": "35473M105", "classes": ["Common Stock", "RESPBLY SRCD GLD", "mc"], "issuer": "FRANKLIN TEMPLETON HOLDINGS", "count": 157}, {"cusip": "35473P439", "classes": ["COM", "ETF  TR  INCOME  FOCUS
+  AMBIG CORZ: [{"cusip": "21874A106", "classes": ["0", "CMN", "COM", "COM NEW", "COMM STK", "COMMON", "COMMON STOCK", "COM_STK", "CORZ", "Com", "Common", "Common / Ordinary Stock", "Common Stock", "Common stock", "
+  AMBIG CPA: [{"cusip": "P31076105", "classes": ["CL A", "COMMON STK"], "issuer": "COPA HOLDINGS S A", "count": 12}, {"cusip": "p31076105", "classes": ["COM"], "issuer": "Copa Holdings, S.A.", "count": 2}]
+  AMBIG CRDO: [{"cusip": "G25457105", "classes": ["COM", "COMMON", "COMMON STOCK", "CRDO", "Com", "Common", "Common / Ordinary Stock", "Common Stock", "Common Stock - Foreign US$", "EQUITY", "Equity", "ORDINARY S",
+  AMBIG DHI: []
+  AMBIG DSX: [{"cusip": "Y2066G104", "classes": ["CMN", "COM", "COMMON", "Common Stock", "Common Stocks", "FOREIGN"], "issuer": "DIANA SHIPPING INC", "count": 164}, {"cusip": "Y2066G138", "classes": ["*W EXP 12/14
+  AMBIG FOX: [{"cusip": "35137L105", "classes": ["A", "CL     A  COM", "CL A", "CL A COM", "CL A COM*", "CL. A", "CLASS A", "CLASS A COMMON STOCK", "CMN", "COM", "COMM", "COMM STK", "COMMON", "COMMON STK", "COMMON
+  AMBIG GOOGL: [{"cusip": "02079K305", "classes": ["A", "ALPHABET INC", "Alphabet Inc.", "CALL", "CAP       STK  CL  A", "CAP STK C", "CAP STK CL", "CAP STK CL\nA", "CAP STK CL  A", "CAP STK CL A", "CAP STK CL A*", 
+  AMBIG HAE: [{"cusip": "405024100", "classes": ["COM", "COMMON", "COMMON STOCK", "CS", "Com", "Common / Ordinary Stock", "Common Stock", "Common Stock - Domestic", "Common stock", "Equity", "Stock", "common"], "i
+  AMBIG JD: [{"cusip": "47215P106", "classes": ["ADR", "ADR (AMERICAN DEPOSITOR RECEIPTS)", "CMN", "COM", "COMMON STK", "COMMON STOCK-FO", "Common", "Common Stock", "DEPOSITARY RECEIPTS", "Depositary Receipt", "E
+  AMBIG LEN: [{"cusip": "526057104", "classes": ["A", "CL     A", "CL A", "CLASS A", "CMN", "CMN CLASS A", "COM", "COM CL A", "COMM", "COMM STK", "COMMON", "COMMON STK", "COMMON STOCK", "CORP  CL  A", "Cl A", "Cla
+  AMBIG MKSI: [{"cusip": "55306N104", "classes": ["0", "A", "CMN", "COM", "COM*", "COMM STK", "COMMON", "COMMON STK", "COMMON STOCK", "COMMON STOCKS", "COM_STK", "CS", "Com", "Common", "Common / Ordinary Stock", "C
+  AMBIG MTH: [{"cusip": "59001A102", "classes": ["0", "CMN", "COM", "COMM STK", "COMMON", "COMMON STOCK", "COM_STK", "CORP  COM", "Com", "Common", "Common / Ordinary Stock", "Common Stock", "EQUITY", "Equities", "
+  AMBIG NUAI: [{"cusip": "64428N109", "classes": ["CMN", "COM", "COMM STK", "COMMON", "COMMON STOCK", "COMMON STOCKS", "COM_STK", "Com", "Common / Ordinary Stock", "Common Stock", "EQUITY", "Equity", "cs"], "issuer
+  AMBIG SKHY: [{"cusip": "006450267", "classes": ["Common Stock - Foreign"], "issuer": "SK hynix Inc", "count": 2}, {"cusip": "78392B107", "classes": ["COM"], "issuer": "SK Hynix Inc", "count": 2}, {"cusip": "00BMW
+  AMBIG SMTOY: []
+  AMBIG TDOC: [{"cusip": "87918A105", "classes": ["0", "CMN", "COM", "COM*", "COMM STK", "COMMON", "COMMON STOCK", "COM_STK", "Com", "Common", "Common Stock", "EQUITY", "Equities", "Equity", "HEALTHCARE", "Option",
+  AMBIG VAL: [{"cusip": "G9460G101", "classes": ["A", "CL     A", "CL A", "CMN", "COM", "COMM STK", "COMMON", "COMMON STK", "COMMON STOCK", "COMMON STOCK-FO", "COM_STK", "Com", "Common / Ordinary Stock", "Common S
+  AMBIG VLRS: []

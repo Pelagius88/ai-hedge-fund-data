@@ -44,6 +44,20 @@ Sources → Ingestion → Canonical Store → Consumers
 holdings table: issuer, CUSIP, value, shares. Tracked quarterly (due 45 days after
 quarter-end). Watch for: new buys, adds, full exits, concentration shifts.
 
+`ingestion/thirteen_f_sweep.py` runs the full-universe sweep:
+- `discover_filers_quarterly()` — all 13F-HR filers from EDGAR quarterly master
+  indexes (one ~30MB download/quarter; immune to S3 403s on individual daily files)
+- `run_sweep()` — checkpointed per-filer Q2+Q1 holdings pull (polite: ~4 req/s
+  max, declared-contact UA, curl with hard max-time, exponential backoff)
+- `diff_filer()` / `diff_all()` — per-CUSIP Q2-vs-Q1 diff: INITIATED / EXITED /
+  ADD (+50% shares) / TRIM (-50% shares), $1M minimum |Δ value|
+
+`ingestion/thirteen_f_analyze.py` builds the ticker→CUSIP map *inverted* from
+actual 13F holdings (OpenFIGI's anonymous tier no longer returns CUSIP due to
+licensing): issuer names from holdings joined to SEC company names, with
+dual-class tickers resolved via observed titleOfClass. Joins moves to tickers,
+tags indexers vs famous active managers (by EDGAR-returned name only).
+
 ## Status
 
 This repo is the new home. Existing sweep scripts (Nasdaq bars, SEC filings, news

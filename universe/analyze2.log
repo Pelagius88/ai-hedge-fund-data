@@ -1,0 +1,79 @@
+scope computed for 8913 filers
+saved 73126 ranked moves on 569 tickers
+unresolved tickers: 0
+clean moves: 68510, scope-change moves: 4616
+
+=== TOP 20 by |delta value| (excl. scope-change artifacts) ===
+SPCX     INITIATED   +$51.66B  FMR LLC  []
+NVDA     ADD         +$41.05B  Invesco Ltd.  [indexer]
+MU       ADD         +$37.84B  Invesco Ltd.  [indexer]
+AAPL     ADD         +$35.89B  Invesco Ltd.  [indexer]
+SNDK     ADD         +$34.24B  SUSQUEHANNA INTERNATIONAL GROUP, LLP  []
+MU       ADD         +$28.75B  GOLDMAN SACHS GROUP INC  []
+AMD      ADD         +$27.59B  Invesco Ltd.  [indexer]
+SPCX     INITIATED   +$26.34B  PUBLIC INVESTMENT FUND  []
+SPCX     INITIATED   +$24.91B  BAMCO INC /NY/  []
+MU       ADD         +$23.63B  NOMURA HOLDINGS INC  []
+AMZN     ADD         +$22.38B  Invesco Ltd.  [indexer]
+MSFT     ADD         +$21.74B  Invesco Ltd.  [indexer]
+SPCX     INITIATED   +$21.54B  D1 Capital Partners L.P.  []
+SPCX     INITIATED   +$20.98B  NVIDIA CORP  []
+SPCX     INITIATED   +$20.93B  SC US (TTGP), LTD.  []
+INTC     ADD         +$19.88B  Invesco Ltd.  [indexer]
+KLAC     ADD         +$19.53B  BlackRock, Inc.  [indexer]
+GOOGL    ADD         +$19.44B  Invesco Ltd.  [indexer]
+ES       EXITED      -$18.68B  Belvedere Trading LLC  []
+LRCX     ADD         +$17.49B  Invesco Ltd.  [indexer]
+
+=== TOP 15 NON-INDEXER (excl. scope-change) ===
+SPCX     INITIATED   +$51.66B  FMR LLC  []
+SNDK     ADD         +$34.24B  SUSQUEHANNA INTERNATIONAL GROUP, LLP  []
+MU       ADD         +$28.75B  GOLDMAN SACHS GROUP INC  []
+SPCX     INITIATED   +$26.34B  PUBLIC INVESTMENT FUND  []
+SPCX     INITIATED   +$24.91B  BAMCO INC /NY/  []
+MU       ADD         +$23.63B  NOMURA HOLDINGS INC  []
+SPCX     INITIATED   +$21.54B  D1 Capital Partners L.P.  []
+SPCX     INITIATED   +$20.98B  NVIDIA CORP  []
+SPCX     INITIATED   +$20.93B  SC US (TTGP), LTD.  []
+ES       EXITED      -$18.68B  Belvedere Trading LLC  []
+SNDK     ADD         +$16.46B  GOLDMAN SACHS GROUP INC  []
+TSM      ADD         +$15.58B  GOLDMAN SACHS GROUP INC  []
+MU       ADD         +$12.74B  BNP PARIBAS FINANCIAL MARKETS  []
+AMD      ADD         +$11.74B  FMR LLC  []
+INTC     ADD         +$10.65B  FMR LLC  []
+
+=== FAMOUS-FUND MOVES, NON-INDEXER (top 20) ===
+MRVL     ADD          +$4.51B  CITADEL ADVISORS LLC
+STX      ADD          +$3.68B  CITADEL ADVISORS LLC
+MU       ADD          +$3.57B  COATUE MANAGEMENT LLC
+SPCX     INITIATED    +$3.27B  CITADEL ADVISORS LLC
+AMAT     ADD          +$3.24B  CITADEL ADVISORS LLC
+SPCX     INITIATED    +$3.20B  MILLENNIUM MANAGEMENT LLC
+SPCX     INITIATED    +$3.17B  COATUE MANAGEMENT LLC
+NBIS     ADD          +$2.53B  CITADEL ADVISORS LLC
+KLAC     ADD          +$2.30B  CITADEL ADVISORS LLC
+INTC     INITIATED    +$1.69B  COATUE MANAGEMENT LLC
+AMZN     ADD          +$1.68B  D. E. Shaw & Co., Inc.
+ALAB     ADD          +$1.63B  CITADEL ADVISORS LLC
+BKNG     ADD          -$1.22B  CITADEL ADVISORS LLC
+NVDA     TRIM         -$1.21B  Point72 Asset Management, L.P.
+QCOM     ADD          +$1.21B  CITADEL ADVISORS LLC
+NBIS     INITIATED    +$1.18B  LONE PINE CAPITAL LLC
+CSCO     ADD          +$1.16B  CITADEL ADVISORS LLC
+HUT      INITIATED    +$1.12B  COATUE MANAGEMENT LLC
+MU       TRIM         +$1.11B  D. E. Shaw & Co., Inc.
+TSM      TRIM         -$1.05B  D. E. Shaw & Co., Inc.
+
+total famous-tagged clean moves: 2050
+
+=== LARGEST SCOPE-CHANGE ARTIFACTS (filing scope, not trading) ===
+SPCX     INITIATED   +$94.18B  Alphabet Inc.
+NVDA     INITIATED   +$87.62B  JPMORGAN CHASE & CO
+SPCX     INITIATED   +$86.01B  Valor Management LLC
+NVDA     INITIATED   +$65.22B  NORGES BANK
+AAPL     INITIATED   +$64.45B  JPMORGAN CHASE & CO
+AAPL     INITIATED   +$55.19B  NORGES BANK
+MSFT     INITIATED   +$49.82B  JPMORGAN CHASE & CO
+AMZN     INITIATED   +$40.34B  JPMORGAN CHASE & CO
+MSFT     INITIATED   +$38.32B  NORGES BANK
+AVGO     INITIATED   +$35.39B  JPMORGAN CHASE & CO

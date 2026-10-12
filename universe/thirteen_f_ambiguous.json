@@ -1,0 +1,1362 @@
+{
+ "ARBE": [
+  {
+   "cusip": "M1R95N100",
+   "classes": [
+    "CMN",
+    "COM",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "FOREIGN",
+    "ORDINARY SHARES"
+   ],
+   "issuer": "ARBE ROBOTICS LTD",
+   "count": 114
+  },
+  {
+   "cusip": "M1R95N118",
+   "classes": [
+    "*W EXP 99/99/999"
+   ],
+   "issuer": "ARBE ROBOTICS LTD",
+   "count": 14
+  },
+  {
+   "cusip": "M1R95N900",
+   "classes": [
+    "CALL",
+    "ORDINARY SHARES"
+   ],
+   "issuer": "ARBE ROBOTICS LTD",
+   "count": 8
+  },
+  {
+   "cusip": "M1R95N950",
+   "classes": [
+    "ORDINARY SHARES",
+    "PUT"
+   ],
+   "issuer": "ARBE ROBOTICS LTD",
+   "count": 6
+  }
+ ],
+ "BEN": [
+  {
+   "cusip": "35473M105",
+   "classes": [
+    "Common Stock",
+    "RESPBLY SRCD GLD",
+    "mc"
+   ],
+   "issuer": "FRANKLIN TEMPLETON HOLDINGS",
+   "count": 157
+  },
+  {
+   "cusip": "35473P439",
+   "classes": [
+    "COM",
+    "ETF  TR  INCOME  FOCUS  ETF",
+    "ETF TR INCOME FOCUS ETF",
+    "Fund",
+    "Multi-Asset Fund"
+   ],
+   "issuer": "FRANKLIN TEMPLETON ETF",
+   "count": 43
+  },
+  {
+   "cusip": "35473P884",
+   "classes": [
+    "COM",
+    "ETF  TR",
+    "ETF  TR  US  MID  CP  MLTFCT",
+    "Equity Fund",
+    "Fund"
+   ],
+   "issuer": "FRANKLIN TEMPLETON ETF",
+   "count": 35
+  },
+  {
+   "cusip": "35473P421",
+   "classes": [
+    "ETF  TR  FOCUSED  DYNAMIC",
+    "Equity Fund",
+    "Fund"
+   ],
+   "issuer": "FRANKLIN TEMPLETON   ETF",
+   "count": 33
+  },
+  {
+   "cusip": "35473P868",
+   "classes": [
+    "COM",
+    "Common Stock",
+    "ETF TR FRANKLIN DYN MUN"
+   ],
+   "issuer": "FRANKLIN TEMPLETON ETF",
+   "count": 6
+  },
+  {
+   "cusip": "35473P744",
+   "classes": [
+    "ETF  TR",
+    "ETF  TR  FTSE  JAPAN  ETF",
+    "Equity Fund",
+    "Fund"
+   ],
+   "issuer": "FRANKLIN TEMPLETON   ETF",
+   "count": 6
+  }
+ ],
+ "CORZ": [
+  {
+   "cusip": "21874A106",
+   "classes": [
+    "0",
+    "CMN",
+    "COM",
+    "COM NEW",
+    "COMM STK",
+    "COMMON",
+    "COMMON STOCK",
+    "COM_STK",
+    "CORZ",
+    "Com",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common stock",
+    "EQUITY",
+    "Equity",
+    "INC  NEW  COM",
+    "NEW COM",
+    "OPT",
+    "SC",
+    "Stock",
+    "cs"
+   ],
+   "issuer": "Core Scientific Inc",
+   "count": 1119
+  },
+  {
+   "cusip": "21874A114",
+   "classes": [
+    "*W     EXP     01/23/202",
+    "*W     EXP  01/23/202",
+    "*W EXP 01/23/202",
+    "EQUITY",
+    "W EXP 01/23/202",
+    "WARRANT",
+    "WRT",
+    "WTS"
+   ],
+   "issuer": "CORE SCIENTIFIC INC NEW",
+   "count": 129
+  },
+  {
+   "cusip": "21874A130",
+   "classes": [
+    "*W EXP 01/23/202",
+    "EQUITY",
+    "WARRANT",
+    "WTS"
+   ],
+   "issuer": "CORE SCIENTIFIC INC NEW",
+   "count": 56
+  },
+  {
+   "cusip": "21874A906",
+   "classes": [
+    "CALL",
+    "COM",
+    "Call",
+    "OPTION",
+    "Option"
+   ],
+   "issuer": "CORE SCIENTIFIC INC NEW",
+   "count": 19
+  },
+  {
+   "cusip": "21874A956",
+   "classes": [
+    "COM",
+    "Option",
+    "PUT"
+   ],
+   "issuer": "CORE SCIENTIFIC INC NEW",
+   "count": 12
+  },
+  {
+   "cusip": "21874A109",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "CORE SCIENTIFIC INC NEW",
+   "count": 2
+  }
+ ],
+ "CPA": [
+  {
+   "cusip": "P31076105",
+   "classes": [
+    "CL A",
+    "COMMON STK"
+   ],
+   "issuer": "COPA HOLDINGS S A",
+   "count": 12
+  },
+  {
+   "cusip": "p31076105",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "Copa Holdings, S.A.",
+   "count": 2
+  }
+ ],
+ "CRDO": [
+  {
+   "cusip": "G25457105",
+   "classes": [
+    "COM",
+    "COMMON",
+    "COMMON STOCK",
+    "CRDO",
+    "Com",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Foreign US$",
+    "EQUITY",
+    "Equity",
+    "ORDINARY S",
+    "ORDINARY SHARES",
+    "ORDINARY SHS",
+    "Ordinary Shares",
+    "Stock",
+    "cs"
+   ],
+   "issuer": "Credo Technology Group Holding Ltd.",
+   "count": 129
+  },
+  {
+   "cusip": "g25457105",
+   "classes": [
+    "COM",
+    "COMMON"
+   ],
+   "issuer": "Credo Technology Group Holding",
+   "count": 13
+  },
+  {
+   "cusip": "006155261",
+   "classes": [
+    "Common Stock - Foreign US$"
+   ],
+   "issuer": "Credo Technology Group Holding Ltd",
+   "count": 1
+  },
+  {
+   "cusip": "25434V203",
+   "classes": [
+    "COMMON STOCKS"
+   ],
+   "issuer": "Credo Technology Group Holding",
+   "count": 1
+  },
+  {
+   "cusip": "74762E102",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "Credo Technology Group Holding",
+   "count": 1
+  }
+ ],
+ "DHI": [],
+ "DSX": [
+  {
+   "cusip": "Y2066G104",
+   "classes": [
+    "CMN",
+    "COM",
+    "COMMON",
+    "Common Stock",
+    "Common Stocks",
+    "FOREIGN"
+   ],
+   "issuer": "DIANA SHIPPING INC",
+   "count": 164
+  },
+  {
+   "cusip": "Y2066G138",
+   "classes": [
+    "*W EXP 12/14/202",
+    "W EXP 12/14/202",
+    "WARRANT",
+    "WRT"
+   ],
+   "issuer": "DIANA SHIPPING INC",
+   "count": 54
+  },
+  {
+   "cusip": "Y2066G904",
+   "classes": [
+    "CALL",
+    "COM"
+   ],
+   "issuer": "DIANA SHIPPING INC",
+   "count": 6
+  },
+  {
+   "cusip": "Y2066G954",
+   "classes": [
+    "COM",
+    "PUT"
+   ],
+   "issuer": "DIANA SHIPPING INC",
+   "count": 3
+  }
+ ],
+ "FOX": [
+  {
+   "cusip": "35137L105",
+   "classes": [
+    "A",
+    "CL     A  COM",
+    "CL A",
+    "CL A COM",
+    "CL A COM*",
+    "CL. A",
+    "CLASS A",
+    "CLASS A COMMON STOCK",
+    "CMN",
+    "COM",
+    "COMM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "COMMON STOCKS",
+    "CORP",
+    "CORP  CL  A  COM",
+    "Cl A",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock",
+    "Common, Mid Cap Value",
+    "Common/Ordinary",
+    "Equity",
+    "Listed Stock",
+    "Ordinary Shares - Class A",
+    "SC",
+    "common",
+    "cs"
+   ],
+   "issuer": "FOX CORP",
+   "count": 1884
+  },
+  {
+   "cusip": "35137L204",
+   "classes": [
+    "0",
+    "A",
+    "CL     B  COM",
+    "CL B",
+    "CL B COM",
+    "CL. B",
+    "CLASS B",
+    "CLBCO",
+    "CMN",
+    "COM",
+    "COM USD0.01 CL B",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "CORP",
+    "CORP  CL  B  COM",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock",
+    "Common/Ordinary",
+    "Equity",
+    "Fox Corp",
+    "Listed Stock",
+    "Ordinary Shares - Class B",
+    "cs"
+   ],
+   "issuer": "FOX CORP",
+   "count": 1307
+  },
+  {
+   "cusip": "35137L955",
+   "classes": [
+    "CL A COM",
+    "PUT"
+   ],
+   "issuer": "FOX CORP",
+   "count": 5
+  },
+  {
+   "cusip": "35137L954",
+   "classes": [
+    "CL B COM",
+    "PUT"
+   ],
+   "issuer": "FOX CORP",
+   "count": 5
+  },
+  {
+   "cusip": "35137L905",
+   "classes": [
+    "CL A COM"
+   ],
+   "issuer": "FOX CORP",
+   "count": 4
+  },
+  {
+   "cusip": "35137L904",
+   "classes": [
+    "CALL"
+   ],
+   "issuer": "FOX CORP",
+   "count": 4
+  }
+ ],
+ "GOOGL": [
+  {
+   "cusip": "02079K305",
+   "classes": [
+    "A",
+    "ALPHABET INC",
+    "Alphabet Inc.",
+    "CALL",
+    "CAP       STK  CL  A",
+    "CAP STK C",
+    "CAP STK CL",
+    "CAP STK CL\nA",
+    "CAP STK CL  A",
+    "CAP STK CL A",
+    "CAP STK CL A*",
+    "CAP STK CL C",
+    "CAP STOCK CL A",
+    "CAPSTK CL A",
+    "CL",
+    "CL A",
+    "CL. A",
+    "CLA",
+    "CLASS                  A",
+    "CLASS A",
+    "CLASS A COMMON STOCK",
+    "CMN",
+    "CMN  CLASS A",
+    "CMN CLASS A",
+    "COM",
+    "COM CL A",
+    "COM CLA",
+    "COM CLASS A",
+    "COMM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "COMMON STOCK USD",
+    "COMMON-STOCK",
+    "COMMONSTOCK",
+    "CPA STK CL A",
+    "Cap Stk Cl A",
+    "Capital Stock Class A",
+    "Class A",
+    "Class A Common Stock",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock A",
+    "Common, Large Cap",
+    "Common/Ordinary",
+    "DEP SHS RP1/20 A",
+    "EQUITY",
+    "Equities",
+    "Equity",
+    "Equity Option",
+    "Equtities",
+    "GOOGL",
+    "INC  CAP  STK  CL  A",
+    "OPT",
+    "Option",
+    "Ordinary Share",
+    "Ordinary Shares",
+    "PUT",
+    "STK CL A",
+    "STOCK",
+    "STOK",
+    "Stock",
+    "Stocks",
+    "USD",
+    "common",
+    "cs"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 13301
+  },
+  {
+   "cusip": "02079K107",
+   "classes": [
+    "A",
+    "ALPHABET INC",
+    "Alphabet Inc.",
+    "CALL",
+    "CAP       STK  CL  C",
+    "CAP STK C",
+    "CAP STK C LC",
+    "CAP STK CL",
+    "CAP STK CL A",
+    "CAP STK CL C",
+    "CAP STK CL C*",
+    "CAPSTK CL C",
+    "CL",
+    "CL C",
+    "CL. C",
+    "CLASS C",
+    "CLASS C CAPITAL STOCK",
+    "CMN",
+    "COM",
+    "COM - Class C",
+    "COM CL C",
+    "COM CLASS C",
+    "COMM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "COMMON STOCK USD",
+    "COMMON STOCKS",
+    "COMMONSTOCK",
+    "Cap Stk Cl C",
+    "Capital Stock Class C",
+    "Class C",
+    "Class C Capital Stock",
+    "Class C Common Stock",
+    "Com",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock C",
+    "Common, Large Cap",
+    "Common/Ordinary",
+    "DEP SHS RP1/20 B",
+    "EQUITY",
+    "Equities",
+    "Equity",
+    "GOOG",
+    "INC  CAP  STK  CL  C",
+    "OPT",
+    "Option",
+    "Ordinary Share",
+    "Ordinary Shares",
+    "Ordinary Shares - Class C",
+    "Orindary Shares",
+    "PUT",
+    "STOCK",
+    "Stock",
+    "Stocks",
+    "USD",
+    "common",
+    "cs"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 11645
+  },
+  {
+   "cusip": "02079K404",
+   "classes": [
+    "ALPHABET INC 6.250% 05/15/29 SR:A CVT",
+    "CMN",
+    "COM",
+    "CONV",
+    "CONV PFD",
+    "CPFD",
+    "CVPFSTKF",
+    "Convertible Preferred Stock",
+    "DEP       SHS  RP1/20  A",
+    "DEP SHS RP1/20 A",
+    "DEP SHS RP1/20 A           *A*",
+    "DEP SHS RP1/20 A  ADDED",
+    "DEP SHS RP1/20 B",
+    "PREF CONV",
+    "Preferred Stock"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 181
+  },
+  {
+   "cusip": "02079K602",
+   "classes": [
+    "ALPHABET INC 6.250% 05/15/29 SR:B CVT",
+    "CMN",
+    "COM",
+    "CONV",
+    "CONV PFD",
+    "CPFD",
+    "CVPFSTKF",
+    "DEP       SHS  RP1/20  B",
+    "DEP SHS RP1/20 A",
+    "DEP SHS RP1/20 B",
+    "DEP SHS RP1/20 B           *A*",
+    "PREF CONV",
+    "Preferred Shares",
+    "Preferred Stock"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 139
+  },
+  {
+   "cusip": "02079K907",
+   "classes": [
+    "CALL",
+    "CAP STK CL C",
+    "Call",
+    "O",
+    "OPT",
+    "OPTION",
+    "OPTIONS",
+    "Option"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 53
+  },
+  {
+   "cusip": "02079K957",
+   "classes": [
+    "CAP STK CL C",
+    "OPT",
+    "OPTION",
+    "PUT",
+    "Put"
+   ],
+   "issuer": "ALPHABET INC",
+   "count": 49
+  }
+ ],
+ "HAE": [
+  {
+   "cusip": "405024100",
+   "classes": [
+    "COM",
+    "COMMON",
+    "COMMON STOCK",
+    "CS",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock",
+    "Equity",
+    "Stock",
+    "common"
+   ],
+   "issuer": "HAEMONETICS CORPORATION",
+   "count": 91
+  },
+  {
+   "cusip": "405024AD2",
+   "classes": [
+    "Bond",
+    "CONV",
+    "CONVERTIBLE BOND",
+    "Convertible Bond",
+    "NOTE",
+    "Sovereign/Corporate"
+   ],
+   "issuer": "HAEMONETICS CORP",
+   "count": 16
+  },
+  {
+   "cusip": "006596729",
+   "classes": [
+    "Common Stock - Domestic"
+   ],
+   "issuer": "Haemonetics Corp",
+   "count": 1
+  },
+  {
+   "cusip": "405024ad2",
+   "classes": [
+    "NOTE 2.500% 6/0"
+   ],
+   "issuer": "HAEMONETICS CORP",
+   "count": 1
+  }
+ ],
+ "JD": [
+  {
+   "cusip": "47215P106",
+   "classes": [
+    "ADR",
+    "ADR (AMERICAN DEPOSITOR RECEIPTS)",
+    "CMN",
+    "COM",
+    "COMMON STK",
+    "COMMON STOCK-FO",
+    "Common",
+    "Common Stock",
+    "DEPOSITARY RECEIPTS",
+    "Depositary Receipt",
+    "Equity",
+    "FOREIGN COMMON STOCKS",
+    "OPT",
+    "Option",
+    "SPON   ADS  CL      A",
+    "SPON   ADS  CL  A",
+    "SPON ADR CL A",
+    "SPON ADS CL",
+    "SPON ADS CL A",
+    "cs"
+   ],
+   "issuer": "JD.COM INC",
+   "count": 1187
+  },
+  {
+   "cusip": "47215PAJ5",
+   "classes": [
+    "BOND",
+    "Bond",
+    "CNV",
+    "CONV",
+    "CONV BND",
+    "CONVERTIBLE BOND",
+    "FIXED INCOME",
+    "NOTE",
+    "NOTE        0.250%     6/0",
+    "NOTE   0.250%      6/0",
+    "NOTE   0.250% 6/",
+    "NOTE   0.250% 6/0",
+    "NOTE  0.250% 6/0",
+    "NOTE 0.250",
+    "NOTE 0.250% 6/0"
+   ],
+   "issuer": "JD.COM INC",
+   "count": 155
+  },
+  {
+   "cusip": "47215P956",
+   "classes": [
+    "OPT",
+    "OPTION",
+    "Option",
+    "PUT",
+    "Put",
+    "SPON ADS CL A"
+   ],
+   "issuer": "JD.COM INC",
+   "count": 18
+  },
+  {
+   "cusip": "47215P906",
+   "classes": [
+    "CALL",
+    "Call",
+    "OPT",
+    "OPTION",
+    "Option",
+    "SPON ADS CL A"
+   ],
+   "issuer": "JD.COM INC",
+   "count": 14
+  },
+  {
+   "cusip": "47215p106",
+   "classes": [
+    "USD"
+   ],
+   "issuer": "JD.COM INC",
+   "count": 2
+  },
+  {
+   "cusip": "00BKPQZT6",
+   "classes": [
+    "Common Stock - Foreign"
+   ],
+   "issuer": "JD.com Inc",
+   "count": 2
+  }
+ ],
+ "LEN": [
+  {
+   "cusip": "526057104",
+   "classes": [
+    "A",
+    "CL     A",
+    "CL A",
+    "CLASS A",
+    "CMN",
+    "CMN CLASS A",
+    "COM",
+    "COM CL A",
+    "COMM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "CORP  CL  A",
+    "Cl A",
+    "Class A",
+    "Class A Common Stock",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock",
+    "Common/Ordinary",
+    "Equities",
+    "Equity",
+    "Listed Stock",
+    "OPT",
+    "Ordinary Shares - Class A",
+    "SC",
+    "STOCK",
+    "Stock",
+    "USD",
+    "common",
+    "cs"
+   ],
+   "issuer": "LENNAR CORP",
+   "count": 2428
+  },
+  {
+   "cusip": "526057302",
+   "classes": [
+    "CL     B",
+    "CL A",
+    "CL B",
+    "CMN",
+    "COM",
+    "COMMON",
+    "COMMON STOCK",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common stock",
+    "Equity",
+    "Listed Stock",
+    "USD",
+    "cs"
+   ],
+   "issuer": "LENNAR CORP",
+   "count": 557
+  },
+  {
+   "cusip": "526057904",
+   "classes": [
+    "CALL",
+    "CL A"
+   ],
+   "issuer": "LENNAR CORP",
+   "count": 7
+  },
+  {
+   "cusip": "526057954",
+   "classes": [
+    "CL A",
+    "PUT"
+   ],
+   "issuer": "LENNAR CORP",
+   "count": 6
+  },
+  {
+   "cusip": "00BHBFSR5",
+   "classes": [
+    "Common Stock - Domestic"
+   ],
+   "issuer": "Lennar Corp",
+   "count": 1
+  },
+  {
+   "cusip": "482480100",
+   "classes": [
+    "COM NEW"
+   ],
+   "issuer": "LENNAR CORP",
+   "count": 1
+  }
+ ],
+ "MKSI": [
+  {
+   "cusip": "55306N104",
+   "classes": [
+    "0",
+    "A",
+    "CMN",
+    "COM",
+    "COM*",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "COMMON STOCKS",
+    "COM_STK",
+    "CS",
+    "Com",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Domestic",
+    "Common stock",
+    "CommonStock",
+    "EQTY",
+    "EQUITY",
+    "Equity",
+    "Listed Stock",
+    "OPT",
+    "Ordinary Shares",
+    "SC",
+    "Stock",
+    "cs"
+   ],
+   "issuer": "MKS INC.",
+   "count": 1889
+  },
+  {
+   "cusip": "55306NAB0",
+   "classes": [
+    "BOND",
+    "Bond",
+    "CNV",
+    "COM",
+    "CONV",
+    "CV",
+    "CV BND",
+    "Convertible Bond",
+    "FIXED INCOME",
+    "NOTE",
+    "NOTE          1.250%  6/0",
+    "NOTE   1.250% 6/0",
+    "NOTE  1.250% 6/0",
+    "NOTE 0.0125 6/0",
+    "NOTE 1.250% 6/0"
+   ],
+   "issuer": "MKS INC.",
+   "count": 199
+  },
+  {
+   "cusip": "55306N904",
+   "classes": [
+    "CALL",
+    "COM"
+   ],
+   "issuer": "MKS INC.",
+   "count": 6
+  },
+  {
+   "cusip": "55306N954",
+   "classes": [
+    "COM",
+    "PUT"
+   ],
+   "issuer": "MKS INC.",
+   "count": 5
+  },
+  {
+   "cusip": "00BYT9340",
+   "classes": [
+    "Common Stock - Domestic"
+   ],
+   "issuer": "MKS Inc",
+   "count": 1
+  }
+ ],
+ "MTH": [
+  {
+   "cusip": "59001A102",
+   "classes": [
+    "0",
+    "CMN",
+    "COM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STOCK",
+    "COM_STK",
+    "CORP  COM",
+    "Com",
+    "Common",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "EQUITY",
+    "Equities",
+    "Equity",
+    "MTH",
+    "OPT",
+    "Ordinary Shares",
+    "Stock",
+    "USD",
+    "cs"
+   ],
+   "issuer": "MERITAGE HOMES CORP",
+   "count": 1101
+  },
+  {
+   "cusip": "59001ABF8",
+   "classes": [
+    "BOND",
+    "Bond",
+    "CCB",
+    "CONB",
+    "CONV",
+    "CONV BND",
+    "CONVERTIBLE BOND",
+    "CV",
+    "FIXED INCOME",
+    "NOTE",
+    "NOTE   1.750%    5/1",
+    "NOTE   1.750% 5/1",
+    "NOTE  1.750% 5/1",
+    "NOTE 1.750% 5/1",
+    "Sovereign/Corporate"
+   ],
+   "issuer": "MERITAGE HOMES CORP",
+   "count": 179
+  },
+  {
+   "cusip": "59001A902",
+   "classes": [
+    "CALL",
+    "COM"
+   ],
+   "issuer": "MERITAGE HOMES CORP",
+   "count": 6
+  },
+  {
+   "cusip": "59001A952",
+   "classes": [
+    "COM",
+    "PUT"
+   ],
+   "issuer": "MERITAGE HOMES CORP",
+   "count": 5
+  },
+  {
+   "cusip": "59001a102",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "Meritage Homes Corporation",
+   "count": 4
+  }
+ ],
+ "NUAI": [
+  {
+   "cusip": "64428N109",
+   "classes": [
+    "CMN",
+    "COM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STOCK",
+    "COMMON STOCKS",
+    "COM_STK",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "EQUITY",
+    "Equity",
+    "cs"
+   ],
+   "issuer": "NEW ERA ENERGY & DIGITAL INC",
+   "count": 241
+  },
+  {
+   "cusip": "64428N117",
+   "classes": [
+    "*W     EXP     12/06/202",
+    "*W     EXP  12/06/202",
+    "*W EXP 12/06/202"
+   ],
+   "issuer": "NEW  ERA  ENERGY    &  DIGITAL     INC",
+   "count": 27
+  },
+  {
+   "cusip": "64428N959",
+   "classes": [
+    "COM",
+    "PUT"
+   ],
+   "issuer": "NEW ERA ENERGY & DIGITAL INC",
+   "count": 8
+  },
+  {
+   "cusip": "64428N909",
+   "classes": [
+    "CALL",
+    "COM"
+   ],
+   "issuer": "NEW ERA ENERGY & DIGITAL INC",
+   "count": 6
+  }
+ ],
+ "SKHY": [
+  {
+   "cusip": "006450267",
+   "classes": [
+    "Common Stock - Foreign"
+   ],
+   "issuer": "SK hynix Inc",
+   "count": 2
+  },
+  {
+   "cusip": "78392B107",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "SK Hynix Inc",
+   "count": 2
+  },
+  {
+   "cusip": "00BMWXRQ5",
+   "classes": [
+    "Common Stock - Foreign"
+   ],
+   "issuer": "SK hynix Inc",
+   "count": 1
+  }
+ ],
+ "SMTOY": [],
+ "TDOC": [
+  {
+   "cusip": "87918A105",
+   "classes": [
+    "0",
+    "CMN",
+    "COM",
+    "COM*",
+    "COMM STK",
+    "COMMON",
+    "COMMON STOCK",
+    "COM_STK",
+    "Com",
+    "Common",
+    "Common Stock",
+    "EQUITY",
+    "Equities",
+    "Equity",
+    "HEALTHCARE",
+    "Option",
+    "Stock",
+    "USD",
+    "cs"
+   ],
+   "issuer": "TELADOC HEALTH INC",
+   "count": 900
+  },
+  {
+   "cusip": "87918AAF2",
+   "classes": [
+    "BOND",
+    "Bond",
+    "CNV",
+    "CONV",
+    "CONVERTIBLE BOND",
+    "Convertible Debt",
+    "NOTE   1.250% 6/0",
+    "NOTE  1.250 6/0",
+    "NOTE  1.250% 6/0",
+    "NOTE 1.250%",
+    "NOTE 1.250% 6/0",
+    "Sovereign/Corporate"
+   ],
+   "issuer": "TELADOC HEALTH INC",
+   "count": 107
+  },
+  {
+   "cusip": "87918A955",
+   "classes": [
+    "COM",
+    "OPTION",
+    "PUT"
+   ],
+   "issuer": "TELADOC HEALTH INC",
+   "count": 9
+  },
+  {
+   "cusip": "87918A905",
+   "classes": [
+    "CALL",
+    "COM"
+   ],
+   "issuer": "TELADOC HEALTH INC",
+   "count": 6
+  }
+ ],
+ "VAL": [
+  {
+   "cusip": "G9460G101",
+   "classes": [
+    "A",
+    "CL     A",
+    "CL A",
+    "CMN",
+    "COM",
+    "COMM STK",
+    "COMMON",
+    "COMMON STK",
+    "COMMON STOCK",
+    "COMMON STOCK-FO",
+    "COM_STK",
+    "Com",
+    "Common / Ordinary Stock",
+    "Common Stock",
+    "Common Stock - Foreign US$",
+    "Common Stocks",
+    "Common stock",
+    "EQUITY",
+    "Equity",
+    "FOREIGN",
+    "SNC",
+    "USD",
+    "com",
+    "cs"
+   ],
+   "issuer": "VALARIS LTD",
+   "count": 923
+  },
+  {
+   "cusip": "G9460G119",
+   "classes": [
+    "*W EXP 04/29/202",
+    "COM",
+    "Com",
+    "Rights and Bearer Warrants; Warrants (except Bearer)",
+    "W EXP 04/29/202",
+    "W EXP 0429202",
+    "WARR",
+    "WARRANT",
+    "Warrant"
+   ],
+   "issuer": "VALARIS LTD",
+   "count": 101
+  },
+  {
+   "cusip": "G9460G901",
+   "classes": [
+    "CALL",
+    "CL A"
+   ],
+   "issuer": "VALARIS LTD",
+   "count": 6
+  },
+  {
+   "cusip": "G9460G951",
+   "classes": [
+    "CL A",
+    "PUT"
+   ],
+   "issuer": "VALARIS LTD",
+   "count": 6
+  },
+  {
+   "cusip": "G9402V109",
+   "classes": [
+    "COM"
+   ],
+   "issuer": "VALARIS PLC",
+   "count": 2
+  },
+  {
+   "cusip": "G9460G109",
+   "classes": [
+    "CL A"
+   ],
+   "issuer": "VALARIS LTD",
+   "count": 2
+  }
+ ],
+ "VLRS": [],
+ "WOLF": [
+  {
+   "cusip": "97785W106",
+   "classes": [
+    "CMN",
+    "COM",
+    "COMM",
+    "COMM STK",
+    "COMMON",
+    "COMMON\nSTOCK",
+    "COMMON      STOCK",
+    "COMMON ST",
+    "COMMON STOCK",
+    "CONV BOND",
+    "Com",
+    "Common",
+    "Common Stock",
+    "EQUITY",
+    "Equity",
+    "INC  COMMON  STOCK",
+    "common",
+    "cs"
+   ],
+   "issuer": "Wolfspeed Inc",
+   "count": 544
+  },
+  {
+   "cusip": "977852AP7",
+   "classes": [
+    "BOND",
+    "Bond",
+    "CNV",
+    "CONV",
+    "CONV BND",
+    "NOTE   2.500% 6/1",
+    "NOTE  2.500% 6/1",
+    "NOTE 2.500% 6/1",
+    "NOTE2.500% 6/"
+   ],
+   "issuer": "WOLFSPEED INC",
+   "count": 73
+  },
+  {
+   "cusip": "97785W906",
+   "classes": [
+    "CALL",
+    "COMMON STOCK",
+    "Option"
+   ],
+   "issuer": "WOLFSPEED INC",
+   "count": 11
+  },
+  {
+   "cusip": "97785W956",
+   "classes": [
+    "COMMON STOCK",
+    "OPTION",
+    "Option",
+    "PUT"
+   ],
+   "issuer": "WOLFSPEED INC",
+   "count": 8
+  },
+  {
+   "cusip": "977852AQ5",
+   "classes": [
+    "NOTE 2.5% 6/15/31",
+    "NOTE 2.500% 6/1",
+    "NOTE 2.500% 6/15/31"
+   ],
+   "issuer": "WOLFSPEED INC",
+   "count": 3
+  },
+  {
+   "cusip": "977852AS1",
+   "classes": [
+    "NOTE 6/15/2031",
+    "NOTE 6/15/31"
+   ],
+   "issuer": "Wolfspeed Inc",
+   "count": 2
+  }
+ ]
+}

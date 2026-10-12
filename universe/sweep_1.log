@@ -1,0 +1,11 @@
+SWEEP shard 1/4: 2229 filers (0 seeded done, gap=1.0s)
+sweep: 180 filers to do (2049 already done)
+sweep: 25/180 done, 1 failed
+sweep: 50/180 done, 1 failed
+sweep: 75/180 done, 1 failed
+sweep: 100/180 done, 1 failed
+sweep: 125/180 done, 1 failed
+sweep: 150/180 done, 1 failed
+sweep: 175/180 done, 1 failed
+sweep complete: 179 done, 1 failed
+SWEEP shard 1 DONE

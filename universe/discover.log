@@ -1,0 +1,11 @@
+discover: fetching https://www.sec.gov/Archives/edgar/full-index/2026/QTR3/master.idx
+discover: QTR3 -> 9442 13F-HR lines
+discover: 20261001 -> 37 13F-HR lines
+discover: 20261002 -> 19 13F-HR lines
+discover: 20261005 -> 40 13F-HR lines
+discover: 20261006 -> 33 13F-HR lines
+discover: 20261007 -> 81 13F-HR lines
+discover: 20261008 -> 86 13F-HR lines
+discover: 20261009 -> 152 13F-HR lines
+discover: 8914 distinct 13F-HR filers
+DISCOVERY DONE: 8914 filers -> /home/hatch/workspace/ai-hedge-fund-data/universe/filers_2026Q2.json
