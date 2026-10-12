@@ -15,12 +15,14 @@ from pipelines import corp_actions as ca
 
 _store = CanonicalStore()
 _UID = 0
+import random as _random
+_TOKEN = _random.randrange(1000, 9999)
 
 
 def _sym():
     global _UID
     _UID += 1
-    return f"TEST{_UID:03d}"
+    return f"T{_TOKEN}{_UID:03d}"
 
 
 def _prov(src="test"):
@@ -151,10 +153,24 @@ def test_confirm_validation():
     print("PASS test_confirm_validation")
 
 
+def test_double_confirm_rejected():
+    sym = _sym()
+    ca.confirm_action(sym, "split", "2024-06-06", ratio=2.0,
+                      provenance=_prov("test"))
+    try:
+        ca.confirm_action(sym, "split", "2024-06-06", ratio=2.0,
+                          provenance=_prov("test"))
+        raise AssertionError("should have raised")
+    except ValueError:
+        pass
+    print("PASS test_double_confirm_rejected")
+
+
 if __name__ == "__main__":
     test_split_detect_confirm_adjust()
     test_dividend_adjustment()
     test_reverse_split()
     test_reject_detection()
     test_confirm_validation()
+    test_double_confirm_rejected()
     print("ALL CORP-ACTION TESTS PASS")

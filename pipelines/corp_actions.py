@@ -62,6 +62,14 @@ def confirm_action(
         raise ValueError("split requires ratio")
     if action_type == "dividend" and amount is None:
         raise ValueError("dividend requires amount")
+    # One confirmed action per (symbol, date, type): confirming the same
+    # event twice is an error, not a second adjustment.
+    for r in confirmed_actions(symbol):
+        if r["date"] == date and r["action"] == action_type:
+            raise ValueError(
+                f"{symbol} already has a confirmed {action_type} on {date} "
+                f"(record {r['record_id'][:8]})"
+            )
     prov = _as_prov(provenance) if provenance else Provenance(source="manual")
     if detection_id:
         if prov.supersedes and prov.supersedes != detection_id:
@@ -99,9 +107,19 @@ def confirmed_actions(symbol: str) -> list[dict]:
     )
 
 
-def _already_adjusted(symbol: str, action_id: str) -> bool:
+def _marker_for(symbol: str, act: dict) -> str:
+    """Idempotency key on the economic event, not the confirmation record.
+
+    Two confirmations of the same split must not double-apply, so the marker
+    is keyed on (symbol, date, action, ratio/amount).
+    """
+    key = act.get("ratio") if act.get("ratio") is not None else act.get("amount")
+    return f"corp-action-adjustment:{symbol}:{act['date']}:{act['action']}:{key}"
+
+
+def _already_adjusted(symbol: str, act: dict) -> bool:
     """Idempotency: has this action already been applied to current bars?"""
-    marker = f"corp-action-adjustment:{action_id}"
+    marker = _marker_for(symbol, act)
     recs = _store.current("bars", where={"symbol": symbol.upper()})
     return any(r.get("provenance", {}).get("source") == marker for r in recs)
 
@@ -126,7 +144,7 @@ def adjust_bars(
                "skipped": []}
     for act in confirmed_actions(sym):
         action_id = act["record_id"]
-        if _already_adjusted(sym, action_id):
+        if _already_adjusted(sym, act):
             summary["skipped"].append(act["date"])
             continue
         bars = _store.current("bars", where={"symbol": sym})
@@ -134,7 +152,7 @@ def adjust_bars(
         if not targets:
             summary["skipped"].append(act["date"])
             continue
-        marker = f"corp-action-adjustment:{action_id}"
+        marker = _marker_for(sym, act)
         for b in targets:
             prov = Provenance(source=marker)
             if base_prov and base_prov.fetched_at:
