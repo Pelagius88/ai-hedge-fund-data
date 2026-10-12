@@ -1,16 +1,19 @@
 """Stop engine.
 
-Hull ch. 18 (derivatives 8th ed notes): fixed/tight stop-losses whipsaw —
-stops must be volatility-scaled or they're just noise-trading. The book
-standard, encoded here and never reinvented:
+Hull ch. 18: fixed/tight stop-losses whipsaw — stops must be volatility-scaled
+or they're just noise-trading. This module computes ATR-trailing stops:
 
-    stop = max(cost basis, peak close - 1.5 x ATR(14))
+    stop = peak close - multiple x ATR(window)
 
-- The 1.5x ATR(14) trailing component: the stop ratchets up with the peak
-  but breathes with the name's own volatility. (Hull: "set them outside
-  the noise (ATR-scaled) or don't set them.")
-- The cost-basis floor: Chris's hard rule — "I'm not taking a loss when I
-  was up 13%." A winner never becomes a loser.
+Design notes:
+- ATR window 14: Wilder's original specification, Hull-standard. Methodology,
+  not a tuned parameter.
+- ATR multiple 2.0: Turtle Traders' 2N stop (Covel, "Trend Following").
+  Literature default, explicitly pending calibration against the book's own
+  history. Change it through the governance log with a reason and evidence —
+  never by preference.
+- NO cost-basis floor. A trailing stop is a trailing stop. Whether a winner
+  may become a loser is a PM decision at flag time, not an engine rule.
 - Bernstein ch. 16: loss aversion is the enemy precommitted rules defeat —
   the stop forces the sale the ego refuses.
 
@@ -27,15 +30,14 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-ATR_WINDOW = 14
-ATR_MULTIPLE = 1.5
+ATR_WINDOW = 14          # Wilder's specification (Hull ch. 18)
+ATR_MULTIPLE = 2.0       # Turtle Traders 2N; LITERATURE DEFAULT — pending calibration
 
 
 @dataclass
 class StopLevel:
     symbol: str
     stop_price: float
-    cost_basis: float
     peak_close: float
     atr: float
     computed_at: str = field(default_factory=_now)
@@ -67,22 +69,21 @@ def atr(bars: list[dict], window: int = ATR_WINDOW) -> float:
     return a
 
 
-def compute_stop(symbol: str, cost_basis: float, bars: list[dict]) -> StopLevel:
-    """The book-standard stop. Peak = highest close in the available bars."""
+def compute_stop(symbol: str, bars: list[dict],
+                 multiple: float = ATR_MULTIPLE) -> StopLevel:
+    """ATR-trailing stop. Peak = highest close in the available bars.
+    The multiple is a governance-logged parameter, not a constant."""
     a = atr(bars)
     peak = max(b["close"] for b in bars)
-    trailing = peak - ATR_MULTIPLE * a
-    stop = max(cost_basis, trailing)
+    stop = peak - multiple * a
     return StopLevel(symbol=symbol, stop_price=round(stop, 2),
-                     cost_basis=cost_basis,
                      peak_close=round(peak, 2), atr=round(a, 4))
 
 
 def check_stops(levels: list[StopLevel], marks: dict[str, float]) -> list[StopFlag]:
     """Compare live marks against computed stops. Returns flags — the engine
-    never acts on them. A broken stop means: flag immediately, propose to
-    Chris, he decides (Founders). For AI Rotation: the PM (Mica) decides,
-    recorded in the action log."""
+    never acts on them. A broken stop means: flag immediately with the facts.
+    What happens next is a PM decision, recorded in the action log."""
     flags = []
     for lvl in levels:
         mark = marks.get(lvl.symbol)

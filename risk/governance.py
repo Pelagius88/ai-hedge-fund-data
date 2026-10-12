@@ -34,7 +34,7 @@ def _now() -> str:
 DEFAULTS: dict[str, tuple] = {
     # (default_value, description)
     "atr_window": (14, "ATR lookback for stop computation (Hull ch. 18)"),
-    "atr_multiple": (1.5, "Stop distance in ATRs — never a round number"),
+    "atr_multiple": (2.0, "Stop distance in ATRs (Turtle Traders 2N; literature default, pending calibration)"),
     "var_confidences": ((0.95, 0.99), "VaR confidence levels reported"),
     "var_horizons": ((1, 10), "VaR horizons in trading days"),
     "var_lookback": (500, "Historical-simulation window, trading days"),

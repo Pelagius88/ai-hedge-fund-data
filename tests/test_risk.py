@@ -51,27 +51,26 @@ def test_top3_concentration():
 
 # -------------------------------------------------------------- stops ----
 def test_stop_formula():
-    # rising name: peak 120, ATR ~2 -> trailing = 120-3 = 117 > cost 100
+    # rising name: peak 129, ATR ~2 -> trailing = 129 - 2*atr (Turtle 2N)
     closes = [100 + i for i in range(30)]  # 100..129
     bars = _bars("T", closes)
-    lvl = stops.compute_stop("T", 100.0, bars)
-    assert lvl.stop_price == max(100.0, round(129 - 1.5 * lvl.atr, 2))
-    assert lvl.stop_price > 100.0, "trailing stop should exceed cost on a winner"
+    lvl = stops.compute_stop("T", bars)
+    assert lvl.stop_price == round(129 - 2.0 * lvl.atr, 2)
     print("PASS test_stop_formula")
 
 
-def test_stop_cost_floor():
-    # flat then crash: peak 100, cost 100 -> trailing falls below cost,
-    # floor binds
+def test_stop_no_cost_floor():
+    # flat then crash: pure trailing stop, no floor — the stop follows the
+    # peak down through the crash, no artificial bound
     closes = [100.0] * 15 + [80.0] * 15
     bars = _bars("T", closes)
-    lvl = stops.compute_stop("T", 100.0, bars)
-    assert lvl.stop_price == 100.0, f"cost floor violated: {lvl.stop_price}"
-    print("PASS test_stop_cost_floor")
+    lvl = stops.compute_stop("T", bars)
+    assert lvl.stop_price < 100.0, f"trailing stop should track peak down: {lvl.stop_price}"
+    print("PASS test_stop_no_cost_floor")
 
 
 def test_stop_flag():
-    lvl = stops.StopLevel("T", stop_price=100.0, cost_basis=90.0,
+    lvl = stops.StopLevel("T", stop_price=100.0,
                           peak_close=120.0, atr=2.0)
     flags = stops.check_stops([lvl], {"T": 99.0})
     assert flags[0].broken and flags[0].distance_atr < 0
@@ -140,10 +139,10 @@ def test_var_contributors():
 # ----------------------------------------------------------- governance ----
 def test_governance_change_logged():
     g = governance.GovernanceLog(changed_by="test")
-    assert g.get("atr_multiple") == 1.5
-    ch = g.set_parameter("atr_multiple", 2.0,
+    assert g.get("atr_multiple") == 2.0
+    ch = g.set_parameter("atr_multiple", 2.5,
                          "widening stops after whipsaw review 2026-10-11")
-    assert ch.version == 2 and ch.old_value == 1.5 and ch.new_value == 2.0
+    assert ch.version == 2 and ch.old_value == 2.0 and ch.new_value == 2.5
     assert "whipsaw" in ch.reason
     hist = g.parameter_history("atr_multiple")
     assert len(hist) == 2 and hist[-1].reason == ch.reason

@@ -1,0 +1,507 @@
+{
+ "as_of": "2026Q2",
+ "count": 100,
+ "note": "Event-crawler 13F watch list. Deterministic diff vs prior quarter; sector heads interpret flags.",
+ "funds": [
+  {
+   "filer": "Berkshire Hathaway Inc [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "TIGER GLOBAL MANAGEMENT LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "COATUE MANAGEMENT LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "PERSHING SQUARE INC.",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Third Point LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Elliott Investment Management [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "VIKING GLOBAL INVESTORS LP",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "LONE PINE CAPITAL LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "D1 Capital Partners L.P.",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Appaloosa LP",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Greenlight Capital Inc [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Icahn Capital Management [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "SOROS FUND MANAGEMENT LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Duquesne Family Office [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Baupost Group LLC [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Sequoia Financial Advisors, LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Andreessen Horowitz [watch \u2014 no Q2 moves in universe]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Founders Fund Growth II Management, LP",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Temasek Holdings (Private) Ltd",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Soros Capital / family offices [watch \u2014 refine]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Sequoia Capital (alt entity \u2014 refine)",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "FMR LLC (Fidelity) [watch \u2014 refine]",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "TUDOR INVESTMENT CORP ET AL",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Point72 Asset Management, L.P.",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "RENAISSANCE TECHNOLOGIES LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "Bridgewater Associates, LP",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "AQR CAPITAL MANAGEMENT LLC",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "GIC Private Ltd (alt entity \u2014 refine)",
+   "tier": "flagship",
+   "reason": "named signal shop"
+  },
+  {
+   "filer": "JPMORGAN CHASE & CO",
+   "tier": "conviction",
+   "reason": "$906.7B Q2 initiations"
+  },
+  {
+   "filer": "NORGES BANK",
+   "tier": "conviction",
+   "reason": "$647.4B Q2 initiations"
+  },
+  {
+   "filer": "Sixth Street Partners Management Company, L.P.",
+   "tier": "conviction",
+   "reason": "$392.1B Q2 initiations"
+  },
+  {
+   "filer": "Alphabet Inc.",
+   "tier": "conviction",
+   "reason": "$94.2B Q2 initiations"
+  },
+  {
+   "filer": "Valor Management LLC",
+   "tier": "conviction",
+   "reason": "$86.0B Q2 initiations"
+  },
+  {
+   "filer": "FMR LLC",
+   "tier": "conviction",
+   "reason": "$52.7B Q2 initiations"
+  },
+  {
+   "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
+   "tier": "conviction",
+   "reason": "$33.7B Q2 initiations"
+  },
+  {
+   "filer": "Gigafund Management Company, LLC",
+   "tier": "conviction",
+   "reason": "$29.4B Q2 initiations"
+  },
+  {
+   "filer": "PUBLIC INVESTMENT FUND",
+   "tier": "conviction",
+   "reason": "$26.3B Q2 initiations"
+  },
+  {
+   "filer": "BAMCO INC /NY/",
+   "tier": "conviction",
+   "reason": "$25.1B Q2 initiations"
+  },
+  {
+   "filer": "VANGUARD PORTFOLIO MANAGEMENT LLC",
+   "tier": "conviction",
+   "reason": "$21.9B Q2 initiations"
+  },
+  {
+   "filer": "NVIDIA CORP",
+   "tier": "conviction",
+   "reason": "$21.0B Q2 initiations"
+  },
+  {
+   "filer": "SC US (TTGP), LTD.",
+   "tier": "conviction",
+   "reason": "$20.9B Q2 initiations"
+  },
+  {
+   "filer": "Capricorn Investment Group LLC",
+   "tier": "conviction",
+   "reason": "$20.7B Q2 initiations"
+  },
+  {
+   "filer": "Darsana Capital Partners LP",
+   "tier": "conviction",
+   "reason": "$18.1B Q2 initiations"
+  },
+  {
+   "filer": "a16z Capital Management, L.L.C.",
+   "tier": "conviction",
+   "reason": "$12.8B Q2 initiations"
+  },
+  {
+   "filer": "BlackRock, Inc.",
+   "tier": "conviction",
+   "reason": "$12.2B Q2 initiations"
+  },
+  {
+   "filer": "ONTARIO TEACHERS PENSION PLAN BOARD",
+   "tier": "conviction",
+   "reason": "$10.9B Q2 initiations"
+  },
+  {
+   "filer": "JANE STREET GROUP, LLC",
+   "tier": "conviction",
+   "reason": "$10.3B Q2 initiations"
+  },
+  {
+   "filer": "NewEdge Advisors, LLC",
+   "tier": "conviction",
+   "reason": "$9.8B Q2 initiations"
+  },
+  {
+   "filer": "BAILLIE GIFFORD & CO",
+   "tier": "conviction",
+   "reason": "$9.2B Q2 initiations"
+  },
+  {
+   "filer": "Capital International Investors",
+   "tier": "conviction",
+   "reason": "$8.1B Q2 initiations"
+  },
+  {
+   "filer": "Atreides Management, LP",
+   "tier": "conviction",
+   "reason": "$5.9B Q2 initiations"
+  },
+  {
+   "filer": "Alpha Wave Global, LP",
+   "tier": "conviction",
+   "reason": "$5.3B Q2 initiations"
+  },
+  {
+   "filer": "Capital World Investors",
+   "tier": "conviction",
+   "reason": "$5.3B Q2 initiations"
+  },
+  {
+   "filer": "SUSQUEHANNA INTERNATIONAL GROUP, LLP",
+   "tier": "conviction",
+   "reason": "$5.3B Q2 initiations"
+  },
+  {
+   "filer": "Blackstone Inc.",
+   "tier": "conviction",
+   "reason": "$5.0B Q2 initiations"
+  },
+  {
+   "filer": "Mirae Asset Global Investments Co., Ltd.",
+   "tier": "conviction",
+   "reason": "$4.6B Q2 initiations"
+  },
+  {
+   "filer": "PeakShares LLC",
+   "tier": "conviction",
+   "reason": "$4.2B Q2 initiations"
+  },
+  {
+   "filer": "Sanders Capital, LLC",
+   "tier": "conviction",
+   "reason": "$4.1B Q2 initiations"
+  },
+  {
+   "filer": "GQG Partners LLC",
+   "tier": "conviction",
+   "reason": "$3.7B Q2 initiations"
+  },
+  {
+   "filer": "Alyeska Investment Group, L.P.",
+   "tier": "conviction",
+   "reason": "$3.7B Q2 initiations"
+  },
+  {
+   "filer": "Holocene Advisors, LP",
+   "tier": "conviction",
+   "reason": "$3.6B Q2 initiations"
+  },
+  {
+   "filer": "CITADEL ADVISORS LLC",
+   "tier": "conviction",
+   "reason": "$3.6B Q2 initiations"
+  },
+  {
+   "filer": "MILLENNIUM MANAGEMENT LLC",
+   "tier": "conviction",
+   "reason": "$3.5B Q2 initiations"
+  },
+  {
+   "filer": "Thrive Capital Management, LLC",
+   "tier": "conviction",
+   "reason": "$3.5B Q2 initiations"
+  },
+  {
+   "filer": "GEODE CAPITAL MANAGEMENT, LLC",
+   "tier": "conviction",
+   "reason": "$3.4B Q2 initiations"
+  },
+  {
+   "filer": "UBS Group AG",
+   "tier": "conviction",
+   "reason": "$3.3B Q2 initiations"
+  },
+  {
+   "filer": "BROOKFIELD Corp /ON/",
+   "tier": "conviction",
+   "reason": "$3.3B Q2 initiations"
+  },
+  {
+   "filer": "ALKEON CAPITAL MANAGEMENT LLC",
+   "tier": "conviction",
+   "reason": "$3.3B Q2 initiations"
+  },
+  {
+   "filer": "RK Capital Management, LLC/FL",
+   "tier": "conviction",
+   "reason": "$3.3B Q2 initiations"
+  },
+  {
+   "filer": "VANGUARD FIDUCIARY TRUST CO",
+   "tier": "conviction",
+   "reason": "$3.2B Q2 initiations"
+  },
+  {
+   "filer": "SCGE MANAGEMENT, L.P.",
+   "tier": "conviction",
+   "reason": "$3.1B Q2 initiations"
+  },
+  {
+   "filer": "JENNISON ASSOCIATES LLC",
+   "tier": "conviction",
+   "reason": "$3.0B Q2 initiations"
+  },
+  {
+   "filer": "Winslow Capital Management, LLC",
+   "tier": "conviction",
+   "reason": "$2.8B Q2 initiations"
+  },
+  {
+   "filer": "VOLORIDGE INVESTMENT MANAGEMENT, LLC",
+   "tier": "conviction",
+   "reason": "$2.8B Q2 initiations"
+  },
+  {
+   "filer": "MORGAN STANLEY",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "Capital Research Global Investors",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "Qube Research & Technologies Ltd",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "GLADE BROOK CAPITAL PARTNERS LLC",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "MASSACHUSETTS FINANCIAL SERVICES CO /MA/",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "CTC LLC",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "Hudson Bay Capital Management LP",
+   "tier": "conviction",
+   "reason": "$2.7B Q2 initiations"
+  },
+  {
+   "filer": "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
+   "tier": "conviction",
+   "reason": "$2.6B Q2 initiations"
+  },
+  {
+   "filer": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+   "tier": "conviction",
+   "reason": "$2.6B Q2 initiations"
+  },
+  {
+   "filer": "TORNO CAPITAL, LLC",
+   "tier": "conviction",
+   "reason": "$2.4B Q2 initiations"
+  },
+  {
+   "filer": "SUSQUEHANNA ADVISORS GROUP, INC.",
+   "tier": "conviction",
+   "reason": "$2.4B Q2 initiations"
+  },
+  {
+   "filer": "Fundsmith LLP",
+   "tier": "conviction",
+   "reason": "$2.4B Q2 initiations"
+  },
+  {
+   "filer": "Jericho Capital Asset Management L.P.",
+   "tier": "conviction",
+   "reason": "$2.3B Q2 initiations"
+  },
+  {
+   "filer": "HARVARD MANAGEMENT CO INC",
+   "tier": "conviction",
+   "reason": "$2.3B Q2 initiations"
+  },
+  {
+   "filer": "Dragoneer Investment Group, LLC",
+   "tier": "conviction",
+   "reason": "$2.2B Q2 initiations"
+  },
+  {
+   "filer": "MAPLELANE CAPITAL, LLC",
+   "tier": "conviction",
+   "reason": "$2.2B Q2 initiations"
+  },
+  {
+   "filer": "Assenagon Asset Management S.A.",
+   "tier": "conviction",
+   "reason": "$2.2B Q2 initiations"
+  },
+  {
+   "filer": "Freestone Grove Partners LP",
+   "tier": "conviction",
+   "reason": "$2.1B Q2 initiations"
+  },
+  {
+   "filer": "SANDS CAPITAL MANAGEMENT, LLC",
+   "tier": "conviction",
+   "reason": "$2.0B Q2 initiations"
+  },
+  {
+   "filer": "StepStone Group LP",
+   "tier": "conviction",
+   "reason": "$1.9B Q2 initiations"
+  },
+  {
+   "filer": "Polar Capital Holdings Plc",
+   "tier": "conviction",
+   "reason": "$1.9B Q2 initiations"
+  },
+  {
+   "filer": "Tao Capital Management LP",
+   "tier": "conviction",
+   "reason": "$1.8B Q2 initiations"
+  },
+  {
+   "filer": "TOMS Capital Investment Management LP",
+   "tier": "conviction",
+   "reason": "$1.8B Q2 initiations"
+  },
+  {
+   "filer": "Sculptor Capital LP",
+   "tier": "conviction",
+   "reason": "$1.8B Q2 initiations"
+  },
+  {
+   "filer": "HEALTHCARE OF ONTARIO PENSION PLAN TRUST FUND",
+   "tier": "conviction",
+   "reason": "$1.8B Q2 initiations"
+  },
+  {
+   "filer": "WORLDQUANT MILLENNIUM ADVISORS LLC",
+   "tier": "conviction",
+   "reason": "$1.8B Q2 initiations"
+  }
+ ]
+}
