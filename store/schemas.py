@@ -170,6 +170,17 @@ class PaperPosition:
     provenance: Provenance | None = None
 
 
+# ------------------------------------------------------------------ pages ----
+@dataclass
+class Page:
+    feed: str                        # feed name, e.g. "nasdaq-bars"
+    severity: str                    # warning | critical
+    message: str
+    acknowledged: bool = False       # ack via supersede, never in place
+    record_id: str = field(default_factory=_rid)
+    provenance: Provenance | None = None
+
+
 # Every table the store knows about.
 TABLES = (
     "bars",
@@ -182,4 +193,5 @@ TABLES = (
     "triage_flags",
     "symbol_master",
     "paper_positions",
+    "pages",
 )
