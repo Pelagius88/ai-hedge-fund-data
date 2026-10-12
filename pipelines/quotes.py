@@ -145,10 +145,12 @@ def detect_splits(symbol: str, bars: list[dict], provenance: Provenance | dict) 
         ratio = cur["open"] / prev["close"]
         for target in _SPLIT_RATIOS:
             if abs(ratio - target) / target < 0.01:
+                # ratio is the overnight gap (0.1 for a 10:1 split); store
+                # the split factor in schema convention (10.0 for 10:1).
                 flagged.append(
                     CorporateAction(
                         symbol=sym, date=cur["date"], action="split",
-                        ratio=target, provenance=provenance,
+                        ratio=round(1.0 / target, 6), provenance=provenance,
                     )
                 )
                 break

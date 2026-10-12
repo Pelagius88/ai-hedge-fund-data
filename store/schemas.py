@@ -47,6 +47,7 @@ class CorporateAction:
     action: str                      # split | dividend | merger | spinoff
     ratio: float | None = None       # e.g. 4.0 for a 4:1 split
     amount: float | None = None      # e.g. dividend dollars per share
+    status: str = "detected"         # detected | confirmed | rejected
     record_id: str = field(default_factory=_rid)
     provenance: Provenance | None = None
 
