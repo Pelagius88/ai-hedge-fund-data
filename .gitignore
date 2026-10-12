@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .env
 .venv/
+universe/thirteen_f_moves_raw.json
+universe/thirteen_f_moves_2026Q2.json
